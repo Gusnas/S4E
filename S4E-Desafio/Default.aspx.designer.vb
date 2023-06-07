@@ -23,13 +23,13 @@ Partial Public Class _Default
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Controle txtNomeFuncionario.
+    '''Controle txtNomeAssociado.
     '''</summary>
     '''<remarks>
     '''Campo gerado automaticamente.
     '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
     '''</remarks>
-    Protected WithEvents txtNomeFuncionario As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtNomeAssociado As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Controle Label2.
@@ -59,13 +59,22 @@ Partial Public Class _Default
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Controle txtDataFuncionario.
+    '''Controle txtDataAssociado.
     '''</summary>
     '''<remarks>
     '''Campo gerado automaticamente.
     '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
     '''</remarks>
-    Protected WithEvents txtDataFuncionario As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtDataAssociado As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Controle txtEmpresaId.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents txtEmpresaId As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Controle Button1.
@@ -77,11 +86,38 @@ Partial Public Class _Default
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Controle GridView1.
+    '''Controle Button2.
     '''</summary>
     '''<remarks>
     '''Campo gerado automaticamente.
     '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Controle GridViewAssociado.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents GridViewAssociado As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''Controle txtIdAssociado.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents txtIdAssociado As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Controle SearchButton.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents SearchButton As Global.System.Web.UI.WebControls.Button
 End Class
