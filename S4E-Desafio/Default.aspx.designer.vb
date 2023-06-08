@@ -14,6 +14,24 @@ Option Explicit On
 Partial Public Class _Default
 
     '''<summary>
+    '''Controle txtAssociadoId.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents txtAssociadoId As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Controle SearchButton.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents SearchButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Controle Label1.
     '''</summary>
     '''<remarks>
@@ -86,13 +104,22 @@ Partial Public Class _Default
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Controle Button2.
+    '''Controle UpdateButton.
     '''</summary>
     '''<remarks>
     '''Campo gerado automaticamente.
     '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
     '''</remarks>
-    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents UpdateButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Controle DeleteButton.
+    '''</summary>
+    '''<remarks>
+    '''Campo gerado automaticamente.
+    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+    '''</remarks>
+    Protected WithEvents DeleteButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Controle GridViewAssociado.
@@ -102,22 +129,4 @@ Partial Public Class _Default
     '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
     '''</remarks>
     Protected WithEvents GridViewAssociado As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''Controle txtIdAssociado.
-    '''</summary>
-    '''<remarks>
-    '''Campo gerado automaticamente.
-    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-    '''</remarks>
-    Protected WithEvents txtIdAssociado As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Controle SearchButton.
-    '''</summary>
-    '''<remarks>
-    '''Campo gerado automaticamente.
-    '''Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-    '''</remarks>
-    Protected WithEvents SearchButton As Global.System.Web.UI.WebControls.Button
 End Class

@@ -13,6 +13,15 @@
 
         <table class="w-100">
             <tr>
+                <td style="font-size: medium; width: 578px; height: 27px;" >
+                    <asp:Label ID="Label1" runat="server" EnableViewState="False" Font-Bold="True" Font-Size="Medium" Text="Empresa Id"></asp:Label>
+                </td>
+                <td style="height: 27px">
+                    <asp:TextBox ID="txtEmpresaId" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:Button ID="SearchButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Pesquisar" Style="height: 29px" />
+                </td>
+            </tr>
+            <tr>
                 <td style="font-size: medium; width: 578px; height: 27px;"><span style="font-weight: bold">Nome</span></td>
                 <td style="height: 27px">
                     <asp:TextBox ID="txtNomeEmpresa" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
@@ -21,13 +30,23 @@
             <tr>
                 <td style="font-size: medium; width: 578px; height: 27px;"><span style="font-weight: bold">CNPJ</span></td>
                 <td style="height: 27px">
-                    <asp:TextBox ID="txtCNPJ" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtCNPJ" runat="server" Font-Size="Medium" Width="200px" MaxLength="14"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 578px">
+                    <asp:Label ID="Label2" runat="server" EnableViewState="False" Font-Bold="True" Font-Size="Medium" Text="Associado Id"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtAssociadoId" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td style="width: 578px">&nbsp;</td>
                 <td>
                     <asp:Button ID="SaveButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Salvar" Style="height: 29px" />
+                    <asp:Button ID="UpdateButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Atualizar" />
+                    <asp:Button ID="DeleteButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Deletar" />
                 </td>
             </tr>
         </table>
@@ -41,34 +60,6 @@
 
         </div>
         <br />
-
-        <div style="background-color: purple; font-size: large; color: white; width: 50%" align="center">
-            Pesquisa Individual
-        </div>
-        <div align="center" style="padding: 15px">
-
-            <table align="center" class="w-100">
-                <tr>
-                    <td style="width: 578px; height: 21px; font-size: medium;" align="right">
-                        <span style="font-weight: bold">Id:</span></td>
-                    <td style="height: 21px">
-                        <asp:TextBox ID="txtIdEmpresa" runat="server" Font-Size="Medium" Width="200px" TextMode="Number"></asp:TextBox>
-                        <asp:Button ID="SearchButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Pesquisar" Style="height: 29px" />
-                    </td>
-                </tr>
-            </table>
-                    <br />
-        <div align="center">
-            <hr />
-
-            <asp:GridView ID="GridViewEmpresaIndividual" runat="server" Width="80%">
-                <HeaderStyle BackColor="#CC00FF" ForeColor="White" />
-            </asp:GridView>
-
-        </div>
-        <br />
-
-        </div>
     </div>
 
 </asp:Content>
