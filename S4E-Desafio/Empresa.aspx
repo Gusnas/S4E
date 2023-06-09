@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div style="background-color: purple; font-size: xx-large; color: white" align="center">
-        Sistema Funcionários - Empresas
+        Sistema Associados - Empresas
     </div>
     <br />
     <div style="background-color: purple; font-size: xx-large; color: white" align="center">
@@ -18,7 +18,7 @@
                 </td>
                 <td style="height: 27px">
                     <asp:TextBox ID="txtEmpresaId" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
-                    <asp:Button ID="SearchButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Pesquisar" Style="height: 29px" />
+                    <asp:Button ID="SearchButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Pesquisar por Id" Style="height: 29px" />
                 </td>
             </tr>
             <tr>

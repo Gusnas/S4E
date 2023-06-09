@@ -17,7 +17,7 @@
                     <span style="font-weight: bold">Associado Id</span></td>
                 <td style="height: 21px">
                     <asp:TextBox ID="txtAssociadoId" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
-                    <asp:Button ID="SearchButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Pesquisar" />
+                    <asp:Button ID="SearchButton" runat="server" BackColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Pesquisar por Id" />
                 </td>
             </tr>
             <tr>
